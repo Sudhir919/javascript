@@ -11,14 +11,17 @@ let marks = {
     // console.log("The marks of " + Object.keys(marks)[i] + " are " + marks[Object.keys(marks)[i]])
   }
   
-  // Problem No 2
+  
+
+//for each loop
+
   for (let key in marks) {
     // console.log("The marks of " + key + " are " + marks[key])
   }
   
 
   
-  // Problem No 4
+  // function
   const mean = (a, b, c, d) => {
     return (a + b + c + d) / 4
   }
