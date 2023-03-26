@@ -9,10 +9,9 @@ console.log(addition(10,10)); // returns 20
 
 //  ******************************* Arrow Function **************************************
 
-let addition = function(x,y) {
- return x + y;
-}
-console.log(addition(10,10)); // returns 20
+let addition = (x,y) => x + y;
+console.log(addition(10,10)); // 20;
+
 
 // -->>
 
