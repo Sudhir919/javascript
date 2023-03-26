@@ -53,9 +53,10 @@ const greet = function(){
 
 // One liners do not require braces/return
 // one line will automatically return
-const greet = () =>  "Good Morning";
+const greet = () =>  "Good Morning";    // here if we want to return Good Morning then we have to write like    const greet = () => { return "Good Morning"; }
 
-const greet = () =>  ({name: "harry"});
+
+const greet = () =>  ({name: "harry"});   // if we want to return object then use double braces instead of single
 
 // Single parameters do not need parenthesis 
 // but you will have to put parenthesis if there are multiple paramteres
