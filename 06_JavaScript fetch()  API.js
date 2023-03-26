@@ -10,11 +10,18 @@ fetch('url')    //api for the get request
 // -> e.g:- 
  
 fetch('https://api.github.com/orgs/nodejs')
-.then(response => response.json())
-.then(data => {
-  console.log(data) // Prints result from `response.json()` in getRequest
+.then(apidata)=>{
+  console.log(apidata);
+  return apidata.json();
 })
-.catch(error => console.error(error))
+
+.then((actualdata) => {
+  console.log(actualdata);
+})
+
+.catch(error) => {
+  console.log(error);
+})
 
 
 // ********************************** POST REQUEST ***************************************
